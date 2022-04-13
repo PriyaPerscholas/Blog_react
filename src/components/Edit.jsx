@@ -31,19 +31,19 @@ export default function Edit() {
                             <label>Title:   </label>
                             <input type="text" name="title" />
                             <br />        <br />
-                            <label>Address:    </label>
+                            <label>Address:  </label>
                             <input type="text" name="address" />
                             <br />        <br />
-                            <label>AuthorName</label>
+                            <label>AuthorName:</label>
                             <input type="text" name="authorName" />
                             <br />        <br />
-                            <label>Body</label>
+                            <label>Body: </label>
                             <input type="text" name="body" />
                             <br />        <br />
-                            <label>DatePosted</label>
+                            <label>DatePosted: </label>
                             <input type="text" name="datePosted" />
                             <br />        <br />
-                            <label>Image</label>
+                            <label>Image: </label>
                             <input type="text" name="image" />
                             <br />        <br />
                             <input type="submit" />

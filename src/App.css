@@ -23,22 +23,24 @@ html {
 }
 
 .blog-show {
-       border: solid 5px black;
+       border: solid 2px black;
        margin: 15%;
        margin-top: 2%;
        padding-top: 50px;
+       text-align: center;
 }
 
 .blog-edit {
-       border: solid 5px black;
+       border: solid 2px black;
        margin: 25%;
        margin-top: 2%;
        padding-top: 10px;
+       padding-bottom: 20px;
 
 }
 
 .blog-new {
-       border: solid 5px black;
+       border: solid 2px black;
        margin: 25%;
        margin-top: 2%;
        padding-top: 10px;
@@ -48,4 +50,26 @@ html {
 .nav1 {
        display: flex;
        justify-content: space-around;
+}
+
+h1,
+h2 {
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       font-style: italic;
+       color: rgb(27, 86, 180);
+       font-weight: 500;
+
+}
+
+a,
+h3 {
+       color: #130d0d;
+}
+
+.blog-about {
+       border: solid 2px black;
+       margin: 25%;
+       margin-top: 2%;
+       text-align: justify;
+       padding: 2%;
 }

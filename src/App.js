@@ -4,6 +4,7 @@ import Index from './components/Index';
 import Show from './components/Show';
 import New from './components/New';
 import Edit from './components/Edit';
+import AboutMe from './components/AboutMe';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       </nav>
       <Routes>
         <Route path="/" element={<Index />} />
-        {/* <Route path="/aboutme" element={<AboutMe />} /> */}
+        <Route path="/aboutme" element={<AboutMe />} />
         <Route path="/:id" element={<Show />} />
         <Route path='/new' element={<New />} />
         <Route path='/:id/edit' element={<Edit />} />

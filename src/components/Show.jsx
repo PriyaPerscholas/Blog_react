@@ -33,7 +33,7 @@ export default function Blog() {
                      <br /><br />
 
                      <button onClick={deleteTheBlog}> Delete blog</button>
-                     <h2>Comments</h2>
+                     <h4>Comments</h4>
                      {comments.map((comment) => {
                             return (
                                    <div>
@@ -43,6 +43,5 @@ export default function Blog() {
                             )
                      })}
               </div>
-
        )
 }
